@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---start----*/
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    list-style: 1.5;
+    font-size: 16px;
+}
+
+/*--header---*/
+header{
+    background-color: grey;
+    width: 0 auto;
+    height: 0 auto;
+}
+
+.brand-image{
+    display: flex;
+    justify-content: flex-start;
+    width: 50px;
+    height: 50px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: white;
+}
+ .header-text {
+     padding: 20px;
+     font-size: 28px;
+     color: #fff;
+ }
+ h1{
+     color: #fff;
+     text-align: center;
+     font-size: 32px;
+     margin: 20px;
+ }
+ .clearfix::after
+ .clearfix::before{
+     clear: both;
+ }
+
+ /*---mian content--*/
+
+ .container{
+     background-color: bisque;
+     border: 2px solid blue;
+     display: flex;
+     justify-content: center;
+ }
+ .col-1-2{
+     display: flex;
+     justify-content: flex-end;
+     height: 300px;
+     width: 200px;
+     justify-content: space-between;
+    
+ }
+ p{
+     width: 50%;
+     margin-top: 40px;
+ }
+
+ .gallery-imges{
+     display: flex;
+     justify-content: space-evenly;  
+     margin-bottom: 20px;  
+ }
+ h3 {
+     font-size: 30px;
+     text-align: center;
+ }
+ footer{
+    background-color: grey;
+    width: 0 auto;
+    height: 0 auto;
+    text-align: center;
+    margin: 20px;
+ }
+ .gallery-images2{
+     display: flex;
+     justify-content: space-evenly;
+ }
